@@ -1,5 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/manimgraph/1080p60/partial_movie_files/CreateGraph/1413466013_3719028800_223132457.mp4'
-file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/manimgraph/1080p60/partial_movie_files/CreateGraph/3496982726_3213241947_3348137297.mp4'
-file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/manimgraph/1080p60/partial_movie_files/CreateGraph/3496982726_1640390900_323956021.mp4'
-file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/manimgraph/1080p60/partial_movie_files/CreateGraph/3496982726_3359312264_60369077.mp4'
