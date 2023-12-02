@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/manimtest/1080p60/partial_movie_files/Graph/3648922565_2835477483_223132457.webm'
