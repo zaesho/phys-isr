@@ -9,7 +9,6 @@ def lightclockverticalduration(trainheight):
     lightclockruntime = trainheight/c
 
     return lightclockruntime
-          
 
-        
 
+rt = lightclockverticalduration(10)*(10**8)
