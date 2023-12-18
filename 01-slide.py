@@ -97,10 +97,10 @@ class Intro(MovingCameraScene):
         def update_timer(mob, dt):
             self.clock += dt
             mob.set_value(0+self.clock)
-        casing = Circle().surround(stopwatch,buffer_factor=1.5).set_stroke(color=YELLOW,opacity=0.8)
+        casing = Circle().surround(stopwatch,buffer_factor=1.5).set_stroke(color=RED,opacity=0.8)
         clock = VGroup(stopwatch,casing)
         clock.move_to(personb)
-        clock.shift(2*LEFT)
+        clock.shift(3*LEFT)
 
         #Defining Alice's Stopwatch Clock
         a_stopwatch = DecimalNumber(0,
@@ -109,7 +109,7 @@ class Intro(MovingCameraScene):
         def update_atimer(mob, dt):
             self.aclock += dt*sf
             mob.set_value(0+self.aclock)
-        acasing = Circle().surround(a_stopwatch,buffer_factor=1.5).set_stroke(color=RED,opacity=0.8)
+        acasing = Circle().surround(a_stopwatch,buffer_factor=1.5).set_stroke(color=BLUE,opacity=0.8)
         aclock = VGroup(a_stopwatch,acasing)
 
         #Alice Objects VGroup
@@ -145,18 +145,17 @@ class Intro(MovingCameraScene):
 
         #Calculate the Velocity
 
-        v_alice = MathTex("\frac{1km}{6.67\mu s}=\frac{1}{2}c")
+        v_alice = MathTex("\\frac{1km}{6.67\mu s}=\\frac{1}{2}c")
         #Playout Velocity Calculations
 
         self.camera.frame.save_state()
         self.play(self.camera.frame.animate.set(width=50))
         self.play(self.camera.frame.animate.shift(12*UP))
         v_alice.shift(12*UP)
-        self.play(self.camera.frame.animate.set(width=2),
+        self.play(self.camera.frame.animate.set(width=8),
                   Write(v_alice))
         self.wait(3)
         self.play(Restore(self.camera.frame))
-
 
 
         #Give Alice Her Clock
@@ -173,26 +172,29 @@ class Intro(MovingCameraScene):
         
         #Defining Alice Jump Path
 
-        xpath1 = Line(start=(1/8)*traintrack.width*LEFT,
-                     end=(1/8)*traintrack.width*RIGHT+1*UP,
+        xpath1 = Line(start=(3/40)*traintrack.width*LEFT,
+                     end=(3/40)*traintrack.width*RIGHT+1*UP,
                      color=RED)
         xpath1.set_fill(RED,opacity=0.3)
-        xpath2 = Line(start=(1/8)*traintrack.width*LEFT+1*UP,
-                     end=(1/8)*traintrack.width*RIGHT,
+        xpath2 = Line(start=(3/40)*traintrack.width*LEFT+1*UP,
+                     end=(3/40)*traintrack.width*RIGHT,
                      color=RED)
         xpath2.set_fill(RED,opacity=0.3) 
 
-        xpath2.shift((1/4)*traintrack.width*RIGHT)
+        #Aligning Paths
+
+        xpath2.shift((3/20)*traintrack.width*RIGHT)
         xpath1.shift(0.05*UP)
         xpath2.shift(0.05*UP)
-        xpath1.shift((1/8)*traintrack.width*RIGHT)
-        xpath2.shift((1/8)*traintrack.width*RIGHT)
+        xpath1.shift((3/40)*traintrack.width*RIGHT)
+        xpath2.shift((3/40)*traintrack.width*RIGHT)
 
+        #Resetting Clocks
         stopwatch.set_value(0)
         self.clock = 0
         stopwatch.add_updater(update_timer)
 
-        
+        #Moving Alice to Midfield
         self.play(
             alicetrain.animate.shift(0.5*(2.04*traintrack.get_end())*RIGHT),
             run_time=0.5*rt,
@@ -203,25 +205,39 @@ class Intro(MovingCameraScene):
         self.aclock = 0 
         self.clock = 0
 
-
+        #Moving Alice Along the Path
         self.wait(2)
         self.play(FadeOut(alice),run_time=0.2)
         stopwatch.add_updater(update_timer)
         a_stopwatch.add_updater(update_atimer)
         self.play(
             MoveAlongPath(person,xpath1),
-            train.animate.shift(0.25*(2.04*traintrack.get_end())*RIGHT),
-            run_time=0.25*rt,
+            train.animate.shift((3/20)*(2.04*traintrack.get_end())*RIGHT),
+            run_time=0.5,
             rate_func=rate_functions.linear)
         self.play(
             MoveAlongPath(person,xpath2),
-            train.animate.shift(0.25*(2.04*traintrack.get_end())*RIGHT),
-            run_time=0.25*rt,
+            train.animate.shift((3/20)*(2.04*traintrack.get_end())*RIGHT),
+            run_time=0.5,
             rate_func=rate_functions.linear)
         
+        stopwatch.set_value(1)
+        a_stopwatch.set_value(0.87)
         stopwatch.remove_updater(update_timer)
         a_stopwatch.remove_updater(update_atimer)
+    
         self.wait(2)
+
+        #Zoom in on Alice Clock
+
+        self.camera.frame.save_state()
+        self.play(self.camera.frame.animate.set(width=clock.width * 6).move_to(aclock))
+        self.play(Flash(acasing,flash_radius=1.15,color=BLUE))
+        self.wait(0.5)
+        self.play(self.camera.frame.animate.move_to(clock))
+        self.play(Flash(casing,flash_radius=1.15,color=RED))
+        self.wait(0.5)
+        self.play(Restore(self.camera.frame))
 
         #Fade Everything Out, Highlight the Clocks
 
