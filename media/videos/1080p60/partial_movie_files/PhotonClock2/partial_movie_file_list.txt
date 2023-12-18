@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/PhotonClock2/3977891868_1046127097_223132457.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/PhotonClock2/2852726489_2198715146_3727504760.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/PhotonClock2/2852726489_2012593334_4046002135.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/PhotonClock2/2852726489_1678637322_3813856258.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/PhotonClock2/2852726489_2189679330_2398159865.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/PhotonClock2/2852726489_1626792996_4059778292.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/PhotonClock2/2852726489_2189679330_2524535857.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/PhotonClock2/2852726489_1626792996_4106660436.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/PhotonClock2/2852726489_1362657184_1848686867.mp4'
