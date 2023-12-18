@@ -1,4 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/manimtest/1080p60/partial_movie_files/SquareToCircleWithModifications/1413466013_2181343316_223132457.mp4'
-file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/manimtest/1080p60/partial_movie_files/SquareToCircleWithModifications/3496982726_766728083_247722528.mp4'
-file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/manimtest/1080p60/partial_movie_files/SquareToCircleWithModifications/3496982726_1190651494_247722528.mp4'

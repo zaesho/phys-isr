@@ -10,5 +10,9 @@ def lightclockverticalduration(trainheight):
 
     return lightclockruntime
 
+def scalingfactor(v):
+    c = 3*(10**8)
+    sf = (1-((v/c)**2))**(1/2)
 
-rt = lightclockverticalduration(10)*(10**8)
+    return sf
+

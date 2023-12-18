@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/PhotonClock/1413466013_1012100693_223132457.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/PhotonClock/3496982726_3467254800_1245648421.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/PhotonClock/3496982726_4040122282_1241186970.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/PhotonClock/3496982726_3003142378_2484541439.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/PhotonClock/3496982726_4074106607_3362079690.mp4'
