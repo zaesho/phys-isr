@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/SceneFour/2006601986_2309877868_223132457.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/SceneFour/4129597043_962616065_220388358.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/SceneFour/100675055_1325735494_2640423595.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/SceneFour/3452806675_22127848_3239413957.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/SceneFour/3452806675_1219865479_329125612.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/SceneFour/3452806675_3508080270_1168628751.mp4'

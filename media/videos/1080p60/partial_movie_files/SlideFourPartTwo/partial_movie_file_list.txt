@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/SlideFourPartTwo/2006601986_2665275274_223132457.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/SlideFourPartTwo/68503078_2429396832_1744955164.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/SlideFourPartTwo/8571811_22127848_3490857020.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/SlideFourPartTwo/8571811_2999513905_1288072430.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/SlideFourPartTwo/4032073124_3586557318_3452454611.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/SlideFourPartTwo/2639289968_1811048555_1164530921.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/SlideFourPartTwo/2639289968_3941392960_2883813762.mp4'
+file 'file:/Users/gianvillarini/Desktop/𝕔𝕠𝕝𝕝𝕖𝕘𝕖/Spec Rel/phys-isr/media/videos/1080p60/partial_movie_files/SlideFourPartTwo/2639289968_1891544414_1697199330.mp4'
