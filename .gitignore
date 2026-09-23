@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+*.log
+media/Tex/
+media/texts/
+media/images/
+media/videos/**/partial_movie_files/
